@@ -4,8 +4,8 @@ import { Link as LinkR } from "react-router-dom";
 
 export const Nav = styled.nav`
     font-family:'Fredoka', sans-serif;
-    background: rgba(0,0,0,0);
-    height: 80px;
+    // background: rgba(0,0,0,0);
+    height: 60px;
    margin: auto;
     // margin-top: -80px;
     display: flex;
@@ -15,8 +15,8 @@ export const Nav = styled.nav`
     position: sticky;
     top:0;
     z-index: 10;
-    // background: white;
-    // box-shadow: 1px 1px black;
+    background: linear-gradient(90deg, rgba(9,11,50,1) 0%, rgb(25,28,38) 100%);
+    
     @media screen and (max-width: 960px) {
         transition: 0.8s all ease;
     }
@@ -24,7 +24,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: center;
-    height: 80px;
+    height: 60px;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
@@ -33,7 +33,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo= styled(LinkR)`
-    // color:  #fbae1a;
+    color:  #fbae1a;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.3rem;
@@ -42,8 +42,9 @@ export const NavLogo= styled(LinkR)`
     // margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-    // filter: invert(75%) sepia(86%) saturate(2521%) hue-rotate(347deg) brightness(108%) contrast(97%);
-    // background: white;
+    border-radius: 5px;
+
+    // background: rgba(225,225,225,0.8);
     // clip-path: ellipse(84% 100% at 52.38% 0%);
    
 `;
@@ -90,11 +91,11 @@ export const NavItem = styled.li`
 
 `
 export const IMGTAG = styled.img`
-filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(320deg) brightness(96%) contrast(104%);
+filter: invert(24%) sepia(56%) saturate(2532%) hue-rotate(304deg) brightness(93%) contrast(91%);
 `;
 export const NavLinks = styled(LinkR)`
-    color: #404040;
-    // color: white;   
+    color:#BA2C73;
+    
     display: flex;
     align-item: center;
     text-decoration: none;
@@ -104,10 +105,11 @@ export const NavLinks = styled(LinkR)`
 
     
     &:hover{
-        color: #fn129d;
+        color: #fff;
     }
 
     &.active{
         border-bottom: 3px solid #fbae1a;
     }
 `
+
