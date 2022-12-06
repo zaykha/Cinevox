@@ -130,6 +130,8 @@ export const LContentDiv1 = styled.div`
         width: 1200px;
         height: 400px;
         margin: auto;
+        position: relative;
+        top:5rem;
         display: flex;
     @media screen and (max-width:1200px){
         width: 100%;
@@ -166,7 +168,7 @@ export const Lmedia = styled.video`
 export const LcontentDiv2 = styled.div`
     width: 1200px;
     // height: 400px;
-    margin: auto;
+    margin:  3rem auto 0 auto;
     box-sizing: border-box;
     padding: 3rem;
     // background: linear-gradient(0deg, rgba(0,4,52,0.9) 0%, rgba(0,0,0,0.8) 100%);
