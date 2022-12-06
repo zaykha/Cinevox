@@ -1,6 +1,7 @@
 import React from 'react'
-import { Herodiv, HeroP, HeroPhrase, LandingDiv, LContent, LContentDiv1, LcontentDiv2, Lmedia, Overlay, PromoComponents, PromoDiv, VidDiv } from './HeroCompelement';
+import { GlossCard, Herodiv, HeroP, HeroPhrase, LandingDiv, LContent, LContentDiv1, LcontentDiv2, Lgrid, Lh3, Lheader, Lmedia, Overlay, PromoComponents, PromoDiv, VidDiv } from './HeroCompelement';
 import video from '../../../src/H123.mp4';
+import video1 from '../../../src/Hero-video.mp4';
 
 const HeroComp = () => {
   return (
@@ -33,14 +34,28 @@ const HeroComp = () => {
     <LandingDiv>
         <LContentDiv1>
             <LContent>
-
+                <Lh3>WHO WE ARE</Lh3>
+                <h2>Video Production that's creative and affordable</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </LContent>
-            <Lmedia>
-
+            <Lmedia muted>
+                <source src={video1} type="video/mp4"/>
+                 Your browser does not support HTML5 video.
             </Lmedia>
         </LContentDiv1>
         <LcontentDiv2>
-
+                <Lheader>
+                    <Lh3>WHAT WE OFFER</Lh3>
+                    <h2>Video is the future of communication</h2>
+                </Lheader>
+                <Lgrid>
+                    <GlossCard></GlossCard>
+                    <GlossCard></GlossCard>
+                    <GlossCard></GlossCard>
+                    <GlossCard></GlossCard>
+                    <GlossCard></GlossCard>
+                    <GlossCard></GlossCard>
+                </Lgrid>
         </LcontentDiv2>
     </LandingDiv>
 

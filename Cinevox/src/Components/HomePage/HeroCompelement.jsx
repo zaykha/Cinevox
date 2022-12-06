@@ -94,7 +94,7 @@ export const PromoDiv = styled.div`
         width: 1200px;
         height: 400px;
         display: flex;
-        margin: auto;
+        margin: 10px auto;
         position: relative;
         // border: 1px solid red;
 
@@ -119,17 +119,83 @@ export const PromoComponents = styled.div`
     border: 1px solid rgba(255, 255, 255, 0.1);
 `;
 
-
-
 export const LandingDiv = styled.div`
+
         width: 100%;
-        height: 80vh;
-        background: linear-gradient(0deg, rgba(0,4,52,0.9) 0%, rgba(0,0,0,0.8) 100%);
+        background: linear-gradient(0deg, rgba(0,4,52,0.9) 0%, rgba(0,0,0,1) 100%);
         margin: -20vh 0 0 0;
+        // border: 1px solid red;
 `;
-export const LContentDiv1 = styled.div``;
-export const LContent = styled.div``;
-export const Lmedia = styled.div``;
+export const LContentDiv1 = styled.div`
+        width: 1200px;
+        height: 400px;
+        margin: auto;
+        display: flex;
+    @media screen and (max-width:1200px){
+        width: 100%;
+    }
+
+`;
+export const LContent = styled.div`
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 2rem 3rem;
+    color: white;
+    // border: 1px solid red;
+
+    @media screen and (max-width: 1200px){
+        width: 100%;
+    }
+`;
+export const Lh3 = styled.h3`
+    color: #BA2C73;
+`;
+
+export const Lmedia = styled.video`
+    width: 568px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    // box-sizing: border-box;
+
+`;
+
+export const LcontentDiv2 = styled.div`
+    width: 1200px;
+    // height: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 3rem;
+    // background: linear-gradient(0deg, rgba(0,4,52,0.9) 0%, rgba(0,0,0,0.8) 100%);
 
 
-export const LcontentDiv2 = styled.div``;
+    @media screen and (max-width:1200px){
+    width: 100%;
+}
+
+`;
+
+export const Lheader = styled.div`
+    text-align: center;
+    color: white;
+`;
+export const Lgrid = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    // border: 1px solid green;
+`;
+export const GlossCard = styled.div`
+    width: 350px;
+    margin: 10px auto;
+    height: 250px;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5)  0%,  rgba(108,122,137,0.5) 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    // border: 1px solid red;
+`;
