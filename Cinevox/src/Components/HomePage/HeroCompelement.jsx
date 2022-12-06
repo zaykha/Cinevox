@@ -190,12 +190,24 @@ export const Lgrid = styled.div`
 export const GlossCard = styled.div`
     width: 350px;
     margin: 10px auto;
-    height: 250px;
+    height: 300px;
     background: linear-gradient(0deg, rgba(0,0,0,0.5)  0%,  rgba(108,122,137,0.5) 100%);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: white;
+
     // border: 1px solid red;
+`;
+export const GlossImg = styled.img`
+    width: 50px;
+    // height: 50px;
 `;

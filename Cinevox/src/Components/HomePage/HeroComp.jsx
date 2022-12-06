@@ -1,7 +1,13 @@
 import React from 'react'
-import { GlossCard, Herodiv, HeroP, HeroPhrase, LandingDiv, LContent, LContentDiv1, LcontentDiv2, Lgrid, Lh3, Lheader, Lmedia, Overlay, PromoComponents, PromoDiv, VidDiv } from './HeroCompelement';
+import { GlossCard, GlossImg, Herodiv, HeroP, HeroPhrase, LandingDiv, LContent, LContentDiv1, LcontentDiv2, Lgrid, Lh3, Lheader, Lmedia, Overlay, PromoComponents, PromoDiv, VidDiv } from './HeroCompelement';
 import video from '../../../src/H123.mp4';
 import video1 from '../../../src/Hero-video.mp4';
+import videoads from '../../../src/pics/landing/vid-ads.png';
+import MV from '../../../src/pics/landing/music-video.png';
+import videoVlog from '../../../src/pics/landing/video-blog.png';
+import Gaming from '../../../src/pics/landing/gaming.png';
+import Movie from '../../../src/pics/landing/movie.png';
+import videoDocumenter from '../../../src/pics/landing/video-documentor.png';
 
 const HeroComp = () => {
   return (
@@ -49,12 +55,36 @@ const HeroComp = () => {
                     <h2>Video is the future of communication</h2>
                 </Lheader>
                 <Lgrid>
-                    <GlossCard></GlossCard>
-                    <GlossCard></GlossCard>
-                    <GlossCard></GlossCard>
-                    <GlossCard></GlossCard>
-                    <GlossCard></GlossCard>
-                    <GlossCard></GlossCard>
+                    <GlossCard>
+                        <GlossImg src={videoads}></GlossImg>
+                        <h2>Video Ads</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                    </GlossCard>
+                    <GlossCard>
+                        <GlossImg src={MV}></GlossImg>
+                        <h2>Music Video</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                    </GlossCard>
+                    <GlossCard>
+                        <GlossImg src={videoVlog}></GlossImg>
+                        <h2>Video Vlog</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                    </GlossCard>
+                    <GlossCard>
+                        <GlossImg src={Gaming}></GlossImg>
+                        <h2>Gamings</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                    </GlossCard>
+                    <GlossCard>
+                        <GlossImg src={Movie}></GlossImg>
+                        <h2>Movie</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                    </GlossCard>
+                    <GlossCard>
+                        <GlossImg src={videoDocumenter}></GlossImg>
+                        <h2>Video Documenter</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's </p>
+                    </GlossCard>
                 </Lgrid>
         </LcontentDiv2>
     </LandingDiv>
