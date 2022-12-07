@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar'
 import Sidebar from '../SidebarMenu/Sidebar';
 import HeroComp from './HeroComp';
@@ -17,6 +18,7 @@ const HomePage = () => {
       <Navbar togglesidebar={togglesidebar}/>
       <HeroComp/>
       <Mkting/>
+      <Footer/>
     </>
   )
 }

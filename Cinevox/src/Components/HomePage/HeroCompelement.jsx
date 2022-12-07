@@ -8,6 +8,10 @@ min-width: 100vw;
 min-height: 100vh;
 z-index:-4;
 
+@media screen and (max-width:1200px){
+    display: none;
+}
+
 `;
 
 export const Overlay = styled.div`
@@ -107,7 +111,7 @@ export const PromoDiv = styled.div`
 export const PromoComponents = styled.div`
     width:380px;
     height:200px;
-    margin: 15px auto;
+    margin: 10px auto;
     color:white;
     padding: 20px;
     box-sizing:border-box;
@@ -124,17 +128,23 @@ export const LandingDiv = styled.div`
         width: 100%;
         background: linear-gradient(0deg, rgba(0,4,52,0.9) 0%, rgba(0,0,0,1) 100%);
         margin: -20vh 0 0 0;
+        padding: 5rem 0;
         // border: 1px solid red;
+        @media screen and (max-width:1200px){
+            margin: 20vh auto 0 auto;
+        }
 `;
 export const LContentDiv1 = styled.div`
         width: 1200px;
         height: 400px;
         margin: auto;
         position: relative;
-        top:5rem;
+        // top:5rem;
         display: flex;
+        flex-wrap: wrap;
     @media screen and (max-width:1200px){
         width: 100%;
+        margin: 20vh auto;
     }
 
 `;
@@ -162,6 +172,11 @@ export const Lmedia = styled.video`
     border: 1px solid grey;
     border-radius: 10px;
     // box-sizing: border-box;
+    @media screen and (max-width: 1200px){
+        width: 90%;
+        border: none;
+        overflow: hidden;
+    }
 
 `;
 
