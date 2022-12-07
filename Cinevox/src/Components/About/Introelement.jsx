@@ -11,7 +11,6 @@ export const AHerodiv= styled.div`
     text-align: center;
     color: white;
     margin: auto;
-    border: 1px solid red;
     background: linear-gradient(0deg, rgba(0,0,0,0.5)0%,  rgba(108,122,137,0.5) 100%);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
