@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import Vcard1jpg from '../../pics/About/Vcard1.jpg';
+import Vcard2jpg from '../../pics/About/Vcard2.jpg';
+import Vcard3jpg from '../../pics/About/Vcard3.jpg';
+import { FaLightbulb, FaCamera, FaFont } from "react-icons/fa";
 
 export const AHero= styled.div`
     width: 100%;
@@ -51,11 +55,57 @@ export const Vcarddiv= styled.div`
         width:100%;
 }
 `;
-export const Vcard= styled.div`
+export const Lightbulb = styled(FaLightbulb)`
+    font-size:5rem;
+    color:#BA2C73;
+    margin: 5rem auto 2rem 200px;
+`;
+export const Camera = styled(FaCamera)`
+    font-size:5rem;
+    color:#BA2C73;
+    margin: 5rem auto 2rem auto ;
+`;
+export const Chessboard = styled(FaFont)`
+    font-size:5rem;
+    color:#BA2C73;
+    margin: 5rem 200px 2rem auto;
+`;
+export const Vcard1= styled.div`
     width: 350px;
-    height: 400px;
-    border: 1px solid red;
+    height: 500px;
+    // border: 1px solid red;
     border-radius: 10px;
     margin:  10px auto;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9)0%,  rgba(108,122,137,0.5) 100%) ,url(${Vcard1jpg}) center no-repeat;
+    background-size:cover;
+    text-align:right;
+    box-sizing: border-box;
+    padding: 2rem;
+    color: white;
+`;
 
+export const Vcard2= styled.div`
+    width: 350px;
+    height: 500px;
+    // border: 1px solid red;
+    border-radius: 10px;
+    margin:  10px auto;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9)0%,  rgba(108,122,137,0.5) 100%) ,url(${Vcard2jpg}) center no-repeat;
+    text-align:center;
+    box-sizing: border-box;
+    padding: 2rem;
+    color: white;
+`;
+export const Vcard3= styled.div`
+    width: 350px;
+    height: 500px;
+    // border: 1px solid red;
+    border-radius: 10px;
+    margin:  10px auto;
+    background: linear-gradient(0deg, rgba(0,0,0,0.9)0%,  rgba(108,122,137,0.5) 100%) ,url(${Vcard3jpg}) center no-repeat;
+    text-align:left;
+    box-sizing: border-box;
+    padding: 2rem;
+    color: white;
 `;

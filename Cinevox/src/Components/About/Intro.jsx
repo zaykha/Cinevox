@@ -1,7 +1,10 @@
 import React from 'react';
-import { AHero, AHerodiv, Value, VHeader, Vcarddiv, Vcard } from './introelement';
+import { AHero, AHerodiv, Value, VHeader, Vcarddiv, Vcard1, Vcard2, Vcard3, Camera, Lightbulb, Chessboard } from './introelement';
 import { LContent, LContentDiv1, Lh3, Lmedia } from '../HomePage/HeroCompelement';
 import video1 from '../../../src/Hero-video.mp4';
+
+
+
 const Intro = () => {
   return (
     <>
@@ -28,9 +31,25 @@ const Intro = () => {
             <h1>We make videos that move people.</h1>
         </VHeader>
         <Vcarddiv>
-            <Vcard></Vcard>
-            <Vcard></Vcard>
-            <Vcard></Vcard>
+            <Vcard1>
+                <Lightbulb/>
+                <h2>VISION</h2>
+                <p>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"
+                </p>
+            </Vcard1>
+            <Vcard2>
+                <Camera/>
+                <h2>MISSION</h2>
+                <p>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"
+                </p>
+            </Vcard2>
+            <Vcard3>
+                <Chessboard/>
+                <h2>MOTTO</h2>
+                <p>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"
+                </p>
+
+            </Vcard3>
         </Vcarddiv>
 
     </Value>
