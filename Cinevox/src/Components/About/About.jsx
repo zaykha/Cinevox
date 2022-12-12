@@ -4,6 +4,7 @@ import Navbar from '../Navbar/Navbar';
 import Sidebar from '../SidebarMenu/Sidebar';
 import Intro from './Intro';
 import { AboutBg } from './introelement';
+import OurTeam from './OurTeam';
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +18,7 @@ const About = () => {
       <Sidebar isOpen={isOpen} togglesidebar={togglesidebar}/>
       <Navbar togglesidebar={togglesidebar}/>
       <Intro/>
+      <OurTeam/>
       <Footer/>
     </AboutBg>
   )
