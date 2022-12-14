@@ -3,11 +3,52 @@ import { AHero, AHerodiv, Value, Vcard1, Vcard2, Vcard3, Vcarddiv, VHeader } fro
 import { LContent, LContentDiv1, Lh3, Lmedia } from '../HomePage/HeroCompelement'
 import Portfoliovid from '../../../src/Portfolio.mp4'
 import { Pcard1, Pcard2, Pcard3, PlayCircle, TCarouselcontainer, Tcontent, Testimonialdiv } from './Pintroelement'
-import { THeader } from '../About/OurTeamelements'
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel'
+import { THeader } from '../About/OurTeamelements';
+import ImageSlider from './ImageSlider';
+import pic1 from '../../../src/pics/testimonial/1.jpg';
+import pic2 from '../../../src/pics/testimonial/2.jpg';
+import pic3 from '../../../src/pics/testimonial/3.jpg';
+import pic4 from '../../../src/pics/testimonial/4.jpg';
+import pic5 from '../../../src/pics/testimonial/5.jpg';
+import pic6 from '../../../src/pics/testimonial/6.jpg';
+
 
 const Pintro = () => {
+    const slides =[
+        {
+            testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+            image:'../../../src/pics/testimonial/1.jpg',
+            name:'Oliver Roberts',
+            title: 'Businessman'
+        },
+        {
+            testimonies: 'Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicul',
+            image:'../../../src/pics/testimonial/2.jpg',
+            name:'Elizabeth Ross',
+            title: 'Vlogger'
+        },{
+            testimonies: 'If a picture is worth 1,000 words, imagine what a video is worth!',
+            image:'../../../src/pics/testimonial/3.jpg',
+            name:'Jenis Stewart',
+            title: 'Event Organizer'
+        },{
+            testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+            image:'../../../src/pics/testimonial/4.jpg',
+            name:'candis modican',
+            title: 'Businessman'
+        },{
+            testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+            image:'../../../src/pics/testimonial/5.jpg',
+            name:'Octavian Cesar',
+            title: 'Phillips'
+        },{
+            testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
+            image:'../../../src/pics/testimonial/6.jpg',
+            name:'Malina dongol',
+            title: 'JP morgan Chase'
+        }
+    ]
+
   return (
     <>
         <AHero>
@@ -52,37 +93,35 @@ const Pintro = () => {
                 </p>
 
             </Pcard3>
+            <Pcard1>
+                <PlayCircle/>
+                <h2>PHILLIPS</h2>
+                <p>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"
+                </p>
+            </Pcard1>
+            <Pcard2>
+            <PlayCircle/>
+                <h2>EDITIONS</h2>
+                <p>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"
+                </p>
+            </Pcard2>
+            <Pcard3>
+            <PlayCircle/>
+                <h2>WEDDINGS</h2>
+                <p>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"
+                </p>
+
+            </Pcard3>
         </Vcarddiv>
 
     </Value>
     <Testimonialdiv>
         <THeader>
-            <Lh3></Lh3>
-            <h1></h1>
+            <Lh3>TESTIMONIAL</Lh3>
+            <h1> What they say</h1>
         </THeader>
-        <TCarouselcontainer>
-            <Carousel showThumbs={false} axis={'horizontal'}>
-                
-                <Tcontent>
-                    <h3>"Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicula"</h3>
-                    <p>Melina</p>
-                    <p>Phillips CEO</p>
-                </Tcontent>
-                <Tcontent>
-                <p>YO</p>
-                </Tcontent>
-                <Tcontent>
-                <p>YO</p>
-                </Tcontent>
-                <Tcontent>
-                <p>YO</p>
-                </Tcontent>
-                <Tcontent>
-                <p>YO</p>
-                </Tcontent>
-
-            </Carousel>
-        </TCarouselcontainer>
+            <ImageSlider slides={slides}/>
+       
     </Testimonialdiv>
 </>
   )
