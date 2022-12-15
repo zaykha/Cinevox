@@ -19,6 +19,9 @@ const ImageSlider = ({slides}) => {
         setCurrentIndex(newIndex);
     }
 
+    const goToSlide = slideIndex =>{
+        setCurrentIndex(slideIndex);
+    }
 
   return (
     <>
@@ -36,9 +39,14 @@ const ImageSlider = ({slides}) => {
             </SlideProfile>
         </Slide>
         <Dotdiv>
-            {slides.map((slide, slideIndex)=>{
-                <Dot key={slideIndex}>o</Dot>
-            })}
+            {slides.map((slide, slideIndex)=>(
+                <Dot key={slideIndex}
+                    onClick={()=>{
+                        goToSlide(slideIndex);
+                       
+                    }}
+                >o</Dot>
+            ))}
         </Dotdiv>
     </SliderContainer>
     

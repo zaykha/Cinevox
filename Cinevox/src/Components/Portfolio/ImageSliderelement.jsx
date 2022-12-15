@@ -48,9 +48,9 @@ export const Dotdiv = styled.div`
     display: flex;
     justify-content: center;
     align-items:center;
-    margin: 30px auto;
+    margin: 10px auto;
     z-index: 20;
-    border: 1px solid white;
+    // border: 1px solid white;
 `;
 
 export const Dot = styled.div`
