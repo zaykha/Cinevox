@@ -35,7 +35,7 @@ const OurTeam = () => {
 
                 <ProfileDiv>
                     <ProfileContent>
-                    <h2>Zinco</h2>
+                    <h2>Nyein</h2>
                     <h3>Co-founder</h3>
                     </ProfileContent>
                     </ProfileDiv>
@@ -43,7 +43,7 @@ const OurTeam = () => {
                 <PpicNyein>
                 <ProfileDiv>
                     <ProfileContent>
-                    <h2>Nyein</h2>
+                    <h2>Zinco</h2>
                     <h3>Co-founder</h3>
                     </ProfileContent>
                     </ProfileDiv>
