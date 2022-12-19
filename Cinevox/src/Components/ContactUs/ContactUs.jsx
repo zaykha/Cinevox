@@ -4,6 +4,7 @@ import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../SidebarMenu/Sidebar';
 import ContactForm from './Contactform';
+import ContactIntro from './ContactIntro';
 
 const ContactUs = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,7 @@ const ContactUs = () => {
     <AboutBg>
       <Sidebar isOpen={isOpen} togglesidebar={togglesidebar}/>
       <Navbar togglesidebar={togglesidebar}/>
+      <ContactIntro/>
       <ContactForm/>
       <Footer/>
     </AboutBg>

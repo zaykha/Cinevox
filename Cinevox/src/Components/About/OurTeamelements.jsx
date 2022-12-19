@@ -41,10 +41,11 @@ export const PpicMark = styled.div`
     background-size: cover;
     box-shadow: 1px 1px 1px rgb(25,25,25);
     overflow:hidden;
-
-    &:hover ${ProfileDiv}{
-        display: block;
-    }
+    text-align: center;
+    color:white;
+    // &:hover ${ProfileDiv}{
+    //     display: block;
+    // }
 `;
 export const PpicBro = styled.div`
     width: 300px;
@@ -69,8 +70,8 @@ export const PpicNyein = styled.div`
 
 export const ProfileContent =styled.div`
    
-    text-align: center;
-    color:white;
-   
+    
+text-align: center;
+color:white;
     
 `

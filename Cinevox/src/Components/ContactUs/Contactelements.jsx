@@ -34,7 +34,7 @@ export const CTForm = styled.form`
     position: relative;
     width:340px;
     height: 550px;
-    background: rgba(225,225,225,0.6);
+    background: linear-gradient(0deg, rgba(225,225,225,0.8)0%,  rgba(108,122,137,0.9) 100%);
     border-radius:8px;
     box-shadow:0 0 40px -10px #000;
     margin: 100px auto;
@@ -42,7 +42,7 @@ export const CTForm = styled.form`
     max-width:calc(100vw - 40px);
     box-sizing:border-box;
     top: 50px;
-    color: #fbae1a;
+    color: white;
     display:flex;
     flex-direction: column;
 
@@ -57,8 +57,8 @@ export const HEADER2 = styled.h2`
     margin:10px 0;
     padding-bottom:10px;w
     width:180px;
-    color:#fbae1a;
-    border-bottom:3px solid #fbae1a;
+    color:white;
+    border-bottom:3px solid white;
     text-shadow: 1px 1px black;
 `;
 
@@ -69,9 +69,9 @@ export const CTsubmitbtn = styled.button`
     padding:8px 12px;
     margin:8px 0 0;
     font-family:'Montserrat',sans-serif;
-    border:1px solid #000;
+    border:1px solid white;
     background:0;
-    color:#000;
+    color:white;
     cursor:pointer;
     transition:all .3s;
     border-radius: 15px;
@@ -88,8 +88,9 @@ export const CTinfordiv = styled.div`
     position:absolute;
     bottom:-40px;
     right:-20px;
-    background: rgba(35,35,35,1);
-    color:#fbae1a;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5)0%,  rgba(108,122,137,0.5) 100%);
+
+    color:white;
     width:320px;
     padding:16px 4px 16px 0;
     border-radius:6px;
@@ -120,8 +121,9 @@ export const CTpromptdiv = styled.div`
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.5);
-    color: #fbae1a;
+    background: linear-gradient(0deg, rgba(0,0,0,0.5)0%,  rgba(108,122,137,0.5) 100%);
+    
+    color: white;
     z-index: 200;
     display: flex;
     align-items: center;
@@ -137,7 +139,8 @@ export const CTprompt = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0,0,0,0.8);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9)0%,  rgba(108,122,137,0.9) 100%);
+
 
 
     @media screen and (max-width:960px){
@@ -147,15 +150,15 @@ export const CTprompt = styled.div`
 
 export const CTcontent = styled.div`
     width: 80%;
-    color: #fbae1a;
+    color: white;
 `
 export const CTBtn = styled.button`
     width: 6rem;
     padding:8px 12px;
     margin:20px auto;
-    border:1px solid #fbae1a;
+    border:1px solid white;
     background:0;
-    color:#fbae1a;
+    color:white;
     cursor:pointer;
     transition:all .3s;
     border-radius: 15px;

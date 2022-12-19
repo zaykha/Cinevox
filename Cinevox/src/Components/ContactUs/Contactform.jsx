@@ -8,6 +8,7 @@ import { FormHelperText, TextField } from "@mui/material";
 
 
 
+
 const ContactForm = () => {
   
 
@@ -60,6 +61,8 @@ const sendEmail = (e) => {
 
 
   return (
+    <>
+   
       <CTContainer>
       <CTForm
         ref={FForm} 
@@ -133,12 +136,13 @@ const sendEmail = (e) => {
 
         <CTinfordiv>
             <SpanCT class="fa fa-phone"></SpanCT>001 1023 567
-            <SpanCT class="fa fa-envelope-o"></SpanCT> contact@gourmet-express.com
+            <SpanCT class="fa fa-envelope-o"></SpanCT> contact@cinevox.com
         </CTinfordiv>
     
     </CTForm>
    
     </CTContainer>
+    </>
   );
 };
 

@@ -31,8 +31,23 @@ const OurTeam = () => {
                     </ProfileDiv>
                   
                 </PpicMark>
-                <PpicBro></PpicBro>
-                <PpicNyein></PpicNyein>
+                <PpicBro>
+
+                <ProfileDiv>
+                    <ProfileContent>
+                    <h2>Zinco</h2>
+                    <h3>Co-founder</h3>
+                    </ProfileContent>
+                    </ProfileDiv>
+                </PpicBro>
+                <PpicNyein>
+                <ProfileDiv>
+                    <ProfileContent>
+                    <h2>Nyein</h2>
+                    <h3>Co-founder</h3>
+                    </ProfileContent>
+                    </ProfileDiv>
+                </PpicNyein>
             </Profile>
         </Teamdiv>
     </>
