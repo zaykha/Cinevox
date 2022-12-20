@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Vcard1jpg from '../../pics/About/Vcard1.jpg';
-import Vcard2jpg from '../../pics/About/Vcard2.jpg';
-import Vcard3jpg from '../../pics/About/Vcard3.jpg';
+import Vcard1jpg from '../../../public/pics/About/Vcard1.jpg';
+import Vcard2jpg from '../../../public/pics/About/Vcard2.jpg';
+import Vcard3jpg from '../../../public/pics/About/Vcard3.jpg';
 import { FaLightbulb, FaCamera, FaFont } from "react-icons/fa";
 
 export const AHero= styled.div`

@@ -2,7 +2,7 @@ import React from 'react';
 
 import {FaBars} from 'react-icons/fa';
 import { IMGTAG, Nav, NavbarContainer, NavLogo, Imgicon, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
-import logo from '/src/cinevoxlogo-removebg-preview.png';
+import logo from '../../../public/cinevoxlogo-removebg-preview.png';
 const Navbar = ({togglesidebar}) => {
   return (
      <>

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import mktbg from "../../../src/pics/mkt/mktbg.jpg";
+import mktbg from "../../../public/pics/mkt/mktbg.jpg";
 import { FaUserGraduate, FaDesktop, FaMoneyBillWave, FaUserClock } from "react-icons/fa";
 
 export const MktDiv = styled.div`

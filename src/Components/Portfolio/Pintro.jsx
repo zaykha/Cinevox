@@ -1,16 +1,11 @@
 import React from 'react'
 import { AHero, AHerodiv, Value, Vcard1, Vcard2, Vcard3, Vcarddiv, VHeader } from '../About/introelement'
 import { LContent, LContentDiv1, Lh3, Lmedia } from '../HomePage/HeroCompelement'
-import Portfoliovid from '../../../src/Portfolio.mp4'
+import Portfoliovid from '../../../public/Portfolio.mp4'
 import { Pcard1, Pcard2, Pcard3, PlayCircle, TCarouselcontainer, Tcontent, Testimonialdiv } from './Pintroelement'
 import { THeader } from '../About/OurTeamelements';
 import ImageSlider from './ImageSlider';
-import pic1 from '../../../src/pics/testimonial/1.jpg';
-import pic2 from '../../../src/pics/testimonial/2.jpg';
-import pic3 from '../../../src/pics/testimonial/3.jpg';
-import pic4 from '../../../src/pics/testimonial/4.jpg';
-import pic5 from '../../../src/pics/testimonial/5.jpg';
-import pic6 from '../../../src/pics/testimonial/6.jpg';
+
 
 
 const Pintro = () => {
