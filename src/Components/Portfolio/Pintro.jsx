@@ -1,5 +1,5 @@
 import React from 'react'
-import { AHero, AHerodiv, Value, Vcard1, Vcard2, Vcard3, Vcarddiv, VHeader } from '../About/introelement'
+import { AHero, AHerodiv, Value, Vcard1, Vcard2, Vcard3, Vcarddiv, VHeader } from '../About/Introelement'
 import { LContent, LContentDiv1, Lh3, Lmedia } from '../HomePage/HeroCompelement'
 import Portfoliovid from '../../assets/Portfolio.mp4'
 import { Pcard1, Pcard2, Pcard3, PlayCircle, TCarouselcontainer, Tcontent, Testimonialdiv } from './Pintroelement'
