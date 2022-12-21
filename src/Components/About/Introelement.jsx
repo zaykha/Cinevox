@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Vcard1jpg from '../../assets/pics/About/Vcard1.jpg';
-import Vcard2jpg from '../../assets/pics/About/Vcard2.jpg';
+import Vcard2jpg from '../../assets/pics/About/vcard2.jpg';
 import Vcard3jpg from '../../assets/pics/About/Vcard3.jpg';
 import { FaLightbulb, FaCamera, FaFont } from "react-icons/fa";
 
