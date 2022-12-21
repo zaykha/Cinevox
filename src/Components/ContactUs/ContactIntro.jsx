@@ -2,9 +2,9 @@ import React from 'react'
 import { AHero, AHerodiv } from '../About/Introelement'
 import { Lh3 } from '../HomePage/HeroCompelement'
 import { Ccard, CCards, Cframediv, CHeader, Ciframe, Cimg, COuterDiv } from './ContactIntroelements';
-import callus from '../../../public/pics/ContactUs/callus.png';
-import email from '../../../public/pics/ContactUs/email.png';
-import location from '../../../public/pics/ContactUs/location.png';
+import callus from '../../assets/pics/ContactUs/callus.png';
+import email from '../../assets/pics/ContactUs/email.png';
+import location from '../../assets/pics/ContactUs/location.png';
 
 
 const ContactIntro = () => {

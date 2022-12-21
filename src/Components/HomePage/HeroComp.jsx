@@ -1,13 +1,13 @@
 import React from 'react'
 import { GlossCard, GlossImg, Herodiv, HeroP, HeroPhrase, LandingDiv, LContent, LContentDiv1, LcontentDiv2, Lgrid, Lh3, Lheader, Lmedia, Overlay, PromoComponents, PromoDiv, VidDiv } from './HeroCompelement';
-import video from '../../../public/H123.mp4';
-import video1 from '../../../public/Hero-video.mp4';
-import videoads from '../../../public/pics/landing/vid-ads.png';
-import MV from '../../../public/pics/landing/music-video.png';
-import videoVlog from '../../../public/pics/landing/video-blog.png';
-import Gaming from '../../../public/pics/landing/gaming.png';
-import Movie from '../../../public/pics/landing/movie.png';
-import videoDocumenter from '../../../public/pics/landing/video-documentor.png';
+import video from '../../assets/H123.mp4';
+import video1 from '../../assets/Hero-video.mp4';
+import videoads from '../../assets/pics/landing/vid-ads.png';
+import MV from '../../assets/pics/landing/music-video.png';
+import videoVlog from '../../assets/pics/landing/video-blog.png';
+import Gaming from '../../assets/pics/landing/gaming.png';
+import Movie from '../../assets/pics/landing/movie.png';
+import videoDocumenter from '../../assets/pics/landing/video-documentor.png';
 
 const HeroComp = () => {
   return (

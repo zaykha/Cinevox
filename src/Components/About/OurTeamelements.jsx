@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Mark from '../../../public/pics/Profile/Mark1.png';
-import Nyein from '../../../public/pics/Profile/MaNyein1.png';
-import Bro from '../../../public/pics/Profile/Bro1.png';
+import Mark from '../../assets/pics/Profile/Mark1.png';
+import Nyein from '../../assets/pics/Profile/MaNyein1.png';
+import Bro from '../../assets/pics/Profile/Bro1.png';
 
 
 

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { FaPlayCircle } from "react-icons/fa";
-import Pcard1pic from '../../../public/pics/Portfolio/Pcard1.jpg'
-import Pcard2pic from '../../../public/pics/Portfolio/Pcard2.jpg'
-import Pcard3pic from '../../../public/pics/Portfolio/Pcard3.jpg'
+import Pcard1pic from '../../assets/pics/Portfolio/Pcard1.jpg'
+import Pcard2pic from '../../assets/pics/Portfolio/Pcard2.jpg'
+import Pcard3pic from '../../assets/pics/Portfolio/Pcard3.jpg'
 
 
 export const PlayCircle = styled(FaPlayCircle)`

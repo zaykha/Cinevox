@@ -1,7 +1,7 @@
 import React from 'react';
 import { AHero, AHerodiv, Value, VHeader, Vcarddiv, Vcard1, Vcard2, Vcard3, Camera, Lightbulb, Chessboard } from './introelement';
 import { LContent, LContentDiv1, Lh3, Lmedia } from '../HomePage/HeroCompelement';
-import video1 from '/Hero-video.mp4';
+import video1 from '../../assets/Hero-video.mp4';
 
 
 

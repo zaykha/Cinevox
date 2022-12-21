@@ -1,10 +1,11 @@
 import React from 'react'
 import { AHero, AHerodiv, Value, Vcard1, Vcard2, Vcard3, Vcarddiv, VHeader } from '../About/introelement'
 import { LContent, LContentDiv1, Lh3, Lmedia } from '../HomePage/HeroCompelement'
-import Portfoliovid from '../../../public/Portfolio.mp4'
+import Portfoliovid from '../../assets/Portfolio.mp4'
 import { Pcard1, Pcard2, Pcard3, PlayCircle, TCarouselcontainer, Tcontent, Testimonialdiv } from './Pintroelement'
 import { THeader } from '../About/OurTeamelements';
 import ImageSlider from './ImageSlider';
+
 
 
 
@@ -12,33 +13,33 @@ const Pintro = () => {
     const slides =[
         {
             testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
-            image:'../../../src/pics/testimonial/1.jpg',
+            image:'../../assets/pics/testimonial/1.jpg',
             name:'Oliver Roberts',
             title: 'Businessman'
         },
         {
             testimonies: 'Inceptos sed cubilia in nibh vel id potenti odio consectetur eros vehicul',
-            image:'../../../src/pics/testimonial/2.jpg',
+            image:'../../assets/pics/testimonial/2.jpg',
             name:'Elizabeth Ross',
             title: 'Vlogger'
         },{
             testimonies: 'If a picture is worth 1,000 words, imagine what a video is worth!',
-            image:'../../../src/pics/testimonial/3.jpg',
+            image:'../../assets/pics/testimonial/3.jpg',
             name:'Jenis Stewart',
             title: 'Event Organizer'
         },{
             testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
-            image:'../../../src/pics/testimonial/4.jpg',
+            image:'../../assets/pics/testimonial/4.jpg',
             name:'candis modican',
             title: 'Businessman'
         },{
             testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
-            image:'../../../src/pics/testimonial/5.jpg',
+            image:'../../assets/pics/testimonial/5.jpg',
             name:'Octavian Cesar',
             title: 'Phillips'
         },{
             testimonies: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
-            image:'../../../src/pics/testimonial/6.jpg',
+            image:'../../assets/pics/testimonial/6.jpg',
             name:'Malina dongol',
             title: 'JP morgan Chase'
         }
