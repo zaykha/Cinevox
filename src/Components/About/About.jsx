@@ -3,7 +3,7 @@ import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../SidebarMenu/Sidebar';
 import Intro from './Intro';
-import { AboutBg } from './introelement';
+import { AboutBg } from './Introelement';
 import OurTeam from './OurTeam';
 
 const About = () => {
