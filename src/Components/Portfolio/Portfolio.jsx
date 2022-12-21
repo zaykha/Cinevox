@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { AboutBg } from '../About/introelement';
+import { AboutBg } from '../About/Introelement';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../SidebarMenu/Sidebar';
